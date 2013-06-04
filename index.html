@@ -14,7 +14,12 @@
     <script type="text/javascript" src="js/bootstrap-dropdown.js"></script>
     <script type="text/javascript" src="js/bootstrap-scrollspy.js"></script>
     <script type="text/javascript" src="js/bootstrap-tab.js"></script>
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<script type="text/javascript">
+		$('#lead a').click(function (e) {
+			e.preventDefault();
+			$(this).tab('show');
+		});
+    </script>
     <!--[if lt IE 9]>
 	<script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -90,20 +95,14 @@
                         <a class="btn" href="https://wiki.projectmeshnet.org">Wiki</a>
                         <br/><br/>
                        	<a class="btn" href="http://hyperboria.net">Hyperboria</a>
-                        <a class="btn" href="#">Map</a>
+                        <a class="btn" href="https://map.projectmeshnet.org">Map</a>
                       </p>
             	    </div>
 		  </div>
 		</div>
 		
 	    </div></div>
-	    
-	    <script type="text/javascript">
-	      $('#lead a').click(function (e) {
-	      e.preventDefault();
-	      $(this).tab('show');
-	      })
-	</script></div></div>
+	    </div></div>
 	<hr><footer>
 	  <p><a href="https://facebook.com/projectmeshnet">Facebook</a> <span class="muted">|</span> <a href="https://plus.google.com/114581766290654528027" rel="publisher">Google+</a> <span class="muted">|</span> <a href="https://twitter.com/projectmeshnet">Twitter</a></p>
 	</footer>
