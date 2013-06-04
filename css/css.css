@@ -4,3 +4,10 @@
   font-weight: 400;
   src: local('Raleway'), url(https://themes.googleusercontent.com/static/fonts/raleway/v6/cIFypx4yrWPDz3zOxk7hIQLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
 }
+
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+	background-color: #F6F6F6;
+	font-family: 'Raleway', sans-serif;
+}
